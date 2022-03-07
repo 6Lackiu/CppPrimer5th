@@ -9,6 +9,6 @@
 4. 交互式系统通常应该关联输入流和输出流。这意味着所有输出，包括用户提示信息，都会在读操作之前被打印出来。
 5. 当一个fstream对象被销毁时，close会自动被调用。
 6. 
-   ![pic1](D:\GitHub\CppPrimer5th\第八章 IO库\pic\pic1.png)
+   ![pic1](.\pic\pic1.png)
 7. 以out模式打开文件会丢失已有数据。保留被ofstream打开的文件中已有数据的唯一方法是显式指定app或in模式。
 
